@@ -1,3 +1,7 @@
-from django.shortcuts import render
+from .models import User
 
-# Create your views here.
+
+def get_user(request, id):
+    users = User.objects.get(id)
+
+
