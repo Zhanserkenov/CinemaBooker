@@ -5,4 +5,4 @@
 .DS_Store
 back_demo/.idea
 back_demo/.env
-__pycache__
+__pycache__/
